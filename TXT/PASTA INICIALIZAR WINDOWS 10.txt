@@ -1,3 +1,0 @@
-# Inserir o comando abaixo no Executar do Windows.
-
-%AppData%\Microsoft\Windows\Start Menu\Programs\Startup

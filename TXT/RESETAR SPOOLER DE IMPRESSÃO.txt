@@ -1,4 +1,0 @@
-# Salvar o código abaixo no bloco de notas com a extensão .bat
-
-net stop spooler
-net start spooler

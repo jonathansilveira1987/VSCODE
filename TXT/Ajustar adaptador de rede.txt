@@ -1,0 +1,22 @@
+# Salvar o código abaixo no bloco de notas com a extensão .bat
+
+
+# Comando 1
+netsh interface set interface "Local Area Connection" DISABLED
+netsh interface set interface "Local Area Connection" ENABLED
+
+
+# Comando 2
+@echo on
+timeout /t 10
+netsh interface set interface "Local Area Connection" DISABLED
+timeout /t 10
+netsh interface set interface "Local Area Connection" ENABLED
+
+
+# Comando 3
+@echo on
+timeout /t 10
+netsh interface set interface "Wi-Fi" DISABLED
+timeout /t 2
+netsh interface set interface "Wi-Fi" ENABLED

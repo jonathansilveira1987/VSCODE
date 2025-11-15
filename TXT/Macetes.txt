@@ -1,0 +1,82 @@
+- TECLAS DE ATALHO WINDOWS
+Windows + v = histórico colar
+Alt + = somar tudo
+Alt + F1 = gráfico dos dados ctrl c + ctrl v cola alguma coluna que tenha ficado de fora
+Alt + 255 = nome de pasta invisível
+Ctrl + t ctrl + q = análises rápidas
+Ctrl + shift + t = abre aba fechada
+Windows + h = assistente de voz
+Windows + shift + s = print de parte da tela
+Windows + alt + r = grava tela
+Windows + . = tela de emojis
+
+- Diagnóstico Memória RAM
+mdsched.exe
+
+- Identificar Número de Série do equipamento pelo Windows
+C:\Windows\System32\cmd.exe /k wmic bios get serialnumber
+
+- Gerenciamento de Disco Windows
+diskmgmt.msc
+
+- Excluir uma partição usando o diskpart
+Para excluir uma partição:
+Em um prompt de comando, digite diskpart
+No prompt DISKPART, digite select disk 0 (Seleciona o disco.)
+No prompt DISKPART, digite list partition
+No prompt DISKPART, digite select partition 4 (Seleciona a partição.)
+No prompt DISKPART, digite delete partition
+No prompt DISKPART, digite exit
+Caso retorne a mensagem: Não é possível excluir uma partição protegida sem o parêmetro de proteção forçada
+Usar o comando: delete partition override
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Centralizar conteúdo em CSS...
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

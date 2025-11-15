@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Pulsante</title>
+    <style>
+        .bola__pulsante {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: #8b80f9;
+            animation: pulsante 1.5s infinite;
+            align-items: center;
+            position: absolute;
+            top: 35%;
+            left: 42.5%;
+        }
+
+        body {
+            background-color: #000000;
+        }
+
+        @keyframes pulsante {
+            0% {
+                box-shadow: #8b80f9 0 0 0 0;
+            }
+
+            100% {
+                box-shadow: #8b80f900 0 0 0 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bola__pulsante"></div>
+</body>
+
+</html>

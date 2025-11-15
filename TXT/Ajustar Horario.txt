@@ -1,0 +1,5 @@
+# Salvar o código abaixo no bloco de notas com a extensão .bat
+
+net start w32time
+w32tm /resync /force
+net stop w32time

@@ -1,0 +1,47 @@
+# Salvar o código abaixo no bloco de notas com a extensão .reg
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"DependOnService"=hex(7):52,00,50,00,43,00,53,00,53,00,00,00,00,00
+"Description"="Carrega arquivos na memória para impressão posterior."
+"DisplayName"="Spooler de impressão"
+"ErrorControl"=dword:00000001
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,e8,47,0c,\
+  00,01,00,00,00,60,ea,00,00,01,00,00,00,60,ea,00,00,00,00,00,00,00,00,00,00
+"Group"="SpoolerGroup"
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,70,00,6f,00,6f,00,6c,00,73,00,76,00,2e,00,65,00,78,00,65,00,00,00
+"ObjectName"="LocalSystem"
+"Start"=dword:00000002
+"Type"=dword:00000110
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Parameters]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Performance]
+"Close"="PerfClose"
+"Collect"="PerfCollect"
+"Collect Timeout"=dword:000007d0
+"Library"="winspool.drv"
+"Object List"="1450"
+"Open"="PerfOpen"
+"Open Timeout"=dword:00000fa0
+"WbemAdapFileSignature"=hex:65,3c,d1,23,5c,3d,9c,bc,f4,36,09,0d,2d,07,e1,db
+"WbemAdapFileTime"=hex:00,1e,fc,96,23,58,c2,01
+"WbemAdapFileSize"=dword:00023e00
+"WbemAdapStatus"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Security]
+"Security"=hex:01,00,14,80,90,00,00,00,9c,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,01,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,8d,01,02,00,01,01,00,00,00,00,00,\
+  05,0b,00,00,00,00,00,18,00,9d,01,02,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  23,02,00,00,00,00,18,00,ff,01,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,20,\
+  02,00,00,00,00,14,00,fd,01,02,00,01,01,00,00,00,00,00,05,12,00,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler\Enum]
+"0"="Root\\LEGACY_SPOOLER\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001

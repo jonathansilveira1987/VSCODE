@@ -1,0 +1,13 @@
+button.one {
+    max-width: 300px;
+    width: 100%;
+}
+
+button.two {
+    width: 300px;
+}
+
+.custom {
+    width: 78px !important;
+}
+

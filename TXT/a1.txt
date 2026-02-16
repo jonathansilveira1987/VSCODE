@@ -1,0 +1,19 @@
+DIFF
+
+arq1.txt
+               -----> arq1.patch
+arq2.txt
+
+- Problema Exponencial
+
+calculado com...
+
+- AlgorLongest Common Subsequence - Subsequência Comum mais Longa entre dois Strings.
+- abrir dois arquivos e tirar a diferença em um terceiro arquivo
+- maior complexidade - O(2 elevado a m)
+- menor complexidade - O(m.n) - sendo m e n o tamanho dos arquivos.
+
+SITES DE RÁDIO ONLINE
+
+https://www.youtube.com/watch?v=36YnV9STBqc
+https://www.youtube.com/watch?v=WsDyRAPFBC8

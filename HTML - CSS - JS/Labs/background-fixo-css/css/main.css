@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+section { 
+    height: 100vh; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+    padding: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-size: 4vw; 
+}
+section p {
+    margin: 0;
+    font-size:3vw;
+}
+section:first-of-type { 
+    text-transform: uppercase;
+    font-size: 7vw;
+}
+section:nth-of-type(odd) { 
+    color: #fff;
+    background-color: #000;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4); 
+}
+section:nth-child(1) { 
+    background-image: url(../img/guitar.jpg); 
+}
+section:nth-child(3) { 
+    background-image: url(../img/bass.jpg); 
+}
+section:nth-child(5) { 
+    background-image: url(../img/drums.jpg); 
+}

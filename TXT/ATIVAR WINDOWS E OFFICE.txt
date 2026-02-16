@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=WbJRBzWgbD8
+
+-> Execute Windows PowerShell (como administrador)
+📋 Código usado no vídeo:
+
+irm getd.cloud | iex
+
+
+
+
+
+
+
+-> Via Comando (CMD): Digite slmgr /xpr no prompt de comando para ver se a ativação é permanente
+
+-> Comando: bcdedit -set testsigning off
+

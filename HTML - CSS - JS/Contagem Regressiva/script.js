@@ -1,7 +1,7 @@
 const output = document.querySelector("h1");
 
 const countDown = () => {
-    const yourDate = new Date("2023-12-31");
+    const yourDate = new Date("2026-12-31");
 
     const countDownDate = new Date(yourDate).getTime();
     const now = new Date().getTime();
@@ -15,7 +15,7 @@ const countDown = () => {
 
     const ss = Math.floor((distance % (1000 * 60)) / 1000);
 
-    output.innerText = `Faltam ${dd} dias ${hh} horas ${mm} minutos ${ss} segundos para 2024!`;
+    output.innerText = `Faltam ${dd} dias ${hh} horas ${mm} minutos ${ss} segundos para 2027!`;
 };
 
 setInterval(countDown, 1000);

@@ -1,11 +1,14 @@
 import random
 
+a = int(input('\nValor 1: '))
+b = int(input('Valor 2: '))
+c = int(input('Valor 3: '))
+
 a = random.random()
-print(a)
+print(f'\n{a}')
 
-b = random.randint(1, 6)
-print(b)
+b = random.randint(1, 10)
+print(f'\n{b}')
 
-c = random.choice([1, 2, 3])
-print(c)
-
+c = random.choice([a, b, c])
+print(f'\n{c}\n')

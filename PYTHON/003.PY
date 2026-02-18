@@ -1,9 +1,9 @@
 
-x = 5
+x = int(input('\nInforme um número inteiro: '))
 def add():
     x = 3
     x = x + 5
-    print(x)
+    print(f'\n{x}')
 
 add()
-print(x)
+print(f'\n{x}\n')
